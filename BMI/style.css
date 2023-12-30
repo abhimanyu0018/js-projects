@@ -1,0 +1,49 @@
+body {
+        text-align: center;
+        background-color: #b2bec3;
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        /* flex-direction: column; */
+        color: #fff;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5em;
+        font-size: large;
+        text-transform: uppercase;
+    }
+    input {
+        border-radius: 5px; 
+        border: none;
+        margin-left: 1em;
+    }
+    input[type=submit]{
+        border-radius: 5px;
+        height: 2rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+    }
+    input[type=submit]:hover {
+        background-color: black;
+        color: #fff;
+    }
+    .result {
+        display: inline;
+    }
+    .bmi-guide p{
+      display: inline;
+      padding: 5px;
+    }
+    .footer { 
+    background-color: black;
+    color: #fff;
+    padding: 1.5em;
+    position: absolute; 
+    bottom: 0%; 
+    left: 0%; 
+    right: 0;
+    
+}
