@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #DDE0BD;
+}
+.line{
+    text-decoration: line-through;
+}
+h1{
+    padding: 0.5em;
+    background-color: #726E75;
+    color: #fff;
+    font-size: 2.5em;
+    /* width: 70%;
+    margin: 0 auto; */
+}
+
+#input {
+    font-size: 2em;
+    margin: 1em 0 1em 1em;
+    width: 55%;
+    text-transform: capitalize;
+    padding: 0 0 0 5px;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: #D0D1AC;
+}
+
+#addTask {
+    font-size: 2em;
+    padding: 0 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #B6A39E;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: all 0.2 ease-out;
+
+}
+#addTask:hover {
+    border: 2px solid black;
+    background-color: #948B89;
+
+     
+}
+.task-list{
+    background-color: #B6A39E;
+    width: 50%;
+    margin: 2em auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}  
+.task-list h2{
+    text-decoration: underline;
+}
+.para {
+     background-color: #948B89;
+     width: 80%;
+     margin: 2px auto;
+     display: flex;
+     justify-content: space-between;
+     text-transform: capitalize;
+     border: 1px solid #726E75;
+     border-radius: 5px;
+     padding: 4px 0;
+     
+}
+.done{
+    margin: 0 1em 0 1em;
+    border: none;
+    /* text-decoration: none !important; */
+    border-radius: 10px;
+    padding: 0 4px;
+}
+
+.del{
+    margin: 0 1em 0 1em;
+    border: none;
+    border-radius: 10px;
+    padding: 0 4px;
+}
+
+.done:hover{
+    background-color: greenyellow;
+
+
+}
+.del:hover{
+    background-color: red;
+}
+
+
