@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.header{
+    background-color: #4C4C4C;
+    color: #fff;
+    
+}
+.header h2{
+    padding: 1em;
+    text-transform: uppercase;
+    word-spacing: 2px;  
+}
+.container{
+    padding-top: 4em;
+}
+.container h2{
+    text-transform: capitalize;
+    width:60%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.start,.stop {
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1em;
+    border: 1px #121212 solid;
+    margin: 1em;
+
+}
+.start:hover,.stop:hover{
+    border: 2px #121212 solid;
+}
+.stop{
+    padding: 8px 24.5px 8px 24.5px;
+}
+.start{
+    padding: 8px;
+}
