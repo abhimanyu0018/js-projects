@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Temperture Converter</h2>
+    </div>
+    <div class="main-container">
+        <div class="input-container">
+            <input type="text" id="input" placeholder="Enter Temperture">
+            <select title="tempIn" name="tempIn" id="tempIn">
+                <option value="" selected disabled hidden>Select</option>
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select><br>
 
+            <span>Convert to </span>
+
+            <select title="tempTo" name="tempTo" id="tempTo">
+                <option value="" selected disabled hidden>Select</option>
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select><br>
+
+            <div class="ans-box ">
+                <p id="ans"></p>
+            </div>
+
+            <button type="button" id="submit" >convert</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
